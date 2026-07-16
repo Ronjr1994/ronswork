@@ -1,0 +1,14 @@
+{
+  "name": "ronportfolio-customized",
+  "private": true,
+  "version": "2.6.0",
+  "scripts": {
+    "start": "node server.js",
+    "validate": "python3 scripts/validate_site.py",
+    "build:css": "python3 scripts/build_css.py",
+    "build": "python3 scripts/build_css.py && python3 scripts/validate_site.py"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
