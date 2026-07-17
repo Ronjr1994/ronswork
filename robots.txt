@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://ronjr1994.github.io/ronworks/sitemap.xml
